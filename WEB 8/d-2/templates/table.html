@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3>Оформление каюты</h3>
+<table>
+    <tr>
+        <td>цвет стен</td>
+        <td>эмблема</td>
+    </tr>
+    <tr>
+            <td {% if sex == 'male' and age < 21%} bgcolor='lightblue' {%elif sex == 'male' and age >= 21%} bgcolor='blue' {%elif sex == 'female' and age < 21%} bgcolor='pink' {%elif sex == 'female' and age >= 21%} bgcolor='red' {%endif%}></td>
+            <td> <img src={%if age < 21%} '/static/img/young.jpg' {%elif age >= 21 %} '/static/img/adult.png'{%endif%} > </td>
+        </tr>
+
+
+</table>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3 class="distribution-header">Размещение по каютам</h3>
+{% for item in list %}
+<div class="distribution">
+    {% if loop.index == 1 %}
+        <label>{{item}} - Каюта № {{loop.index}} - капитан корабля</label>
+    {% else %}
+        <label>{{item}} - Каюта № {{loop.index}}</label>
+    {% endif %}
+</div>
+{% endfor %}
+{% endblock %}
