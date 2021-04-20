@@ -1,0 +1,14 @@
+h4 {
+color: #888888;
+margin-left: 20px;
+}
+
+.header {
+display: flex;
+flex-direction: row;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+}
