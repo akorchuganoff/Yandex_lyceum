@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="member">
+    <h2>{{member['name']}} {{member['surname']}}</h2>
+    <img src="{{member['photo']}}">
+    <div class="member-labels">
+    {% for p in member['prof'] %}
+    <label> {{p}} </label>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

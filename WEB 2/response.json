@@ -1,0 +1,278 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "якутск",
+          "results": "10",
+          "found": "4"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "–осси€, –еспублика —аха (якути€), якутск",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "–осси€, –еспублика —аха (якути€), якутск",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "–осси€"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "ƒальневосточный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "–еспублика —аха (якути€)"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "городской округ якутск"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "якутск"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "–осси€, –еспублика —аха (якути€), якутск",
+                    "CountryNameCode": "RU",
+                    "CountryName": "–осси€",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "–еспублика —аха (якути€)",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "городской округ якутск",
+                        "Locality": {
+                          "LocalityName": "якутск"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "якутск",
+            "description": "–еспублика —аха (якути€), –осси€",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "129.523724 61.909348",
+                "upperCorner": "130.029952 62.372529"
+              }
+            },
+            "Point": {
+              "pos": "129.732178 62.027216"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "–осси€, –еспублика —аха (якути€), якутск, якутск",
+                "kind": "other",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "–осси€, –еспублика —аха (якути€), якутск, якутск",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "–осси€"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "ƒальневосточный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "–еспублика —аха (якути€)"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "городской округ якутск"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "якутск"
+                    },
+                    {
+                      "kind": "other",
+                      "name": "якутск"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "–осси€, –еспублика —аха (якути€), якутск, якутск",
+                    "CountryNameCode": "RU",
+                    "CountryName": "–осси€",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "–еспублика —аха (якути€)",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "городской округ якутск",
+                        "Locality": {
+                          "LocalityName": "якутск",
+                          "Premise": {
+                            "PremiseName": "якутск"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "якутск",
+            "description": "якутск, –еспублика —аха (якути€), –осси€",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "129.738547 62.030837",
+                "upperCorner": "129.80443 62.061766"
+              }
+            },
+            "Point": {
+              "pos": "129.771488 62.046305"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "–осси€, –еспублика —аха (якути€), городской округ якутск, аэропорт якутск имени ѕлатона ќйунского",
+                "kind": "airport",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "–осси€, –еспублика —аха (якути€), городской округ якутск, аэропорт якутск имени ѕлатона ќйунского",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "–осси€"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "ƒальневосточный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "–еспублика —аха (якути€)"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "городской округ якутск"
+                    },
+                    {
+                      "kind": "airport",
+                      "name": "аэропорт якутск имени ѕлатона ќйунского"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "–осси€, –еспублика —аха (якути€), городской округ якутск, аэропорт якутск имени ѕлатона ќйунского",
+                    "CountryNameCode": "RU",
+                    "CountryName": "–осси€",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "–еспублика —аха (якути€)",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "городской округ якутск",
+                        "Locality": {
+                          "DependentLocality": {
+                            "DependentLocalityName": "аэропорт якутск имени ѕлатона ќйунского"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "аэропорт якутск имени ѕлатона ќйунского",
+            "description": "городской округ якутск, –еспублика —аха (якути€), –осси€",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "129.742455 62.07298",
+                "upperCorner": "129.801869 62.109905"
+              }
+            },
+            "Point": {
+              "pos": "129.750225 62.086594"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "ќбъединенные јрабские Ёмираты, эмират ƒубай, ƒжумейра, остров Ѕулун-якутск-ќленЄк",
+                "kind": "other",
+                "Address": {
+                  "country_code": "AE",
+                  "formatted": "ќбъединенные јрабские Ёмираты, эмират ƒубай, ƒжумейра, остров Ѕулун-якутск-ќленЄк",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "ќбъединенные јрабские Ёмираты"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "эмират ƒубай"
+                    },
+                    {
+                      "kind": "district",
+                      "name": "ƒжумейра"
+                    },
+                    {
+                      "kind": "other",
+                      "name": "остров Ѕулун-якутск-ќленЄк"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "ќбъединенные јрабские Ёмираты, эмират ƒубай, ƒжумейра, остров Ѕулун-якутск-ќленЄк",
+                    "CountryNameCode": "AE",
+                    "CountryName": "ќбъединенные јрабские Ёмираты",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "эмират ƒубай",
+                      "Locality": {
+                        "DependentLocality": {
+                          "DependentLocalityName": "ƒжумейра",
+                          "Premise": {
+                            "PremiseName": "остров Ѕулун-якутск-ќленЄк"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "остров Ѕулун-якутск-ќленЄк",
+            "description": "ƒжумейра, эмират ƒубай, ќбъединенные јрабские Ёмираты",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "55.168407 25.246275",
+                "upperCorner": "55.171866 25.250556"
+              }
+            },
+            "Point": {
+              "pos": "55.170096 25.248791"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

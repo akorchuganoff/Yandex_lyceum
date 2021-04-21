@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if specialitet in ['врач', 'психолог', 'биолог', 'геолог'] %}
+        <h2>Научные симуляторы</h2>
+    {% else %}
+        <h2>Инженерные тренажеры</h2>
+    {% endif %}
+{% endblock %}

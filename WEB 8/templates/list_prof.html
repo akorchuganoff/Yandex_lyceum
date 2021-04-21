@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if type == 'ol' %}
+        <ol>
+        {% for item in prof %}
+            <li>{{item}}</li>
+        {% endfor %}
+        </ol>
+    {% elif type == 'ul' %}
+        <ul>
+        {% for item in prof %}
+            <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h1>Неверный параметр</h1>
+    {% endif %}
+{% endblock %}

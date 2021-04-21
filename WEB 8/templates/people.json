@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "name": "Max",
+      "surname": "Black",
+      "photo": "static/img/1.jpg",
+      "prof": [
+        "doctor",
+        "scientist"
+      ]
+    },
+    {
+      "name": "John",
+      "surname": "Green",
+      "photo": "static/img/2.jpg",
+      "prof": [
+        "technick",
+        "cooker"
+      ]
+    },
+    {
+      "name": "David",
+      "surname": "Brown",
+      "photo": "static/img/3.jpeg",
+      "prof": [
+        "networker",
+        "technick"
+      ]
+    }
+  ]
+}
