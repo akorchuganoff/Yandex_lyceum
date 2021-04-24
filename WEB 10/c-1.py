@@ -1,5 +1,5 @@
 from data import db_session
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, redirect, request, abort, jsonify
 from data.user import User
 from data.jobs import Jobs
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
@@ -104,6 +104,44 @@ def do():
         arr.append(d_job)
 
     return render_template('c-7.html', arr=arr)
+
+
+@app.route('/jobs/<int:id>', methods=['GET', 'POST'])
+@login_required
+def edit_news(id):
+    form = JobsForm()
+    if request.method == "GET":
+        db_sess = db_session.create_session()
+        jobs = db_sess.query(Jobs).filter(Jobs.id == id,
+                                          Jobs.user == current_user
+                                          ).first()
+        return f'{jobs.name}'
+        if jobs:
+            form.team_leader.data = jobs.team_leader
+            form.job.data = jobs.job
+            form.work_size.data = jobs.work_size
+            form.collaborators.data = jobs.collaborators
+            form.is_finished.data = jobs.is_finished
+
+        else:
+            abort(400, {'message': 'custom error message to appear in body'})
+
+    if form.validate_on_submit():
+        db_sess = db_session.create_session()
+        jobs = db_sess.query(Jobs).filter(Jobs.id == id,
+                                          Jobs.user == current_user
+                                          ).first()
+        if jobs:
+            form.team_leader.data = jobs.team_leader
+            form.job.data = jobs.job
+            form.work_size.data = jobs.work_size
+            form.collaborators.data = jobs.collaborators
+            form.is_finished.data = jobs.is_finished
+            db_sess.commit()
+            return redirect('/')
+        else:
+            abort(404)
+    return render_template('addjob.html', form=form)
 
 
 def main():
