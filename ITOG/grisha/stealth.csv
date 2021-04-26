@@ -1,0 +1,6 @@
+id;creature;size;habitat;magic;fast;other
+1;leprechaun;1;1;0;0;0
+2;acromantula;0;1;1;0;0
+3;phoenix;0;1;1;1;1
+4;dwarf;1;1;0;0;0
+5;clabbert;1;0;0;0;1

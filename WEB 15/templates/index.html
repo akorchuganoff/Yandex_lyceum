@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Vk.com Statistics</h1>
+<h2>Activities</h2>
+<table>
+    <tr>
+        <td>likes</td>
+        <td>{{activity[0]}}</td>
+    </tr>
+    <tr>
+        <td>comments</td>
+        <td>{{activity[1]}}</td>
+    </tr>
+    <tr>
+        <td>subscribed</td>
+        <td>{{activity[2]}}</td>
+    </tr>
+</table>
+<h2>Ages</h2>
+<table>
+    <tr>
+        <td>12-18</td>
+        <td>{{ages['12-18']}}</td>
+    </tr>
+    <tr>
+        <td>18-21</td>
+        <td>{{ages['18-21']}}</td>
+    </tr>
+    <tr>
+        <td>21-24</td>
+        <td>{{ages['21-24']}}</td>
+    </tr>
+    <tr>
+        <td>24-27</td>
+        <td>{{ages['24-27']}}</td>
+    </tr>
+    <tr>
+        <td>27-30</td>
+        <td>{{ages['27-30']}}</td>
+    </tr>
+    <tr>
+        <td>30-35</td>
+        <td>{{ages['30-35']}}</td>
+    </tr>
+    <tr>
+        <td>35-45</td>
+        <td>{{ages['35-45']}}</td>
+    </tr>
+    <tr>
+        <td>45-100</td>
+        <td>{{ages['45-100']}}</td>
+    </tr>
+</table>
+<h2>Cities</h2>
+<table>
+    {% for elem in cities %}
+        <tr><td>{{elem}}</td></tr>
+    {% endfor %}
+</table>
+</body>
+</html>
